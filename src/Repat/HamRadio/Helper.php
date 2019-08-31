@@ -8,6 +8,7 @@ abstract class Helper
 {
     /**
      * HttpClient
+     *
      * @var \GuzzleHttp\Client
      */
     public $client;
@@ -175,10 +176,16 @@ abstract class Helper
 
     /**
      * Verifies the call sign with official database
+     *
      * @param string $callSign
      * @return array
      */
     abstract public function verifyCallSign(string $callSign) : array;
 
+    /**
+     * Returns a regular expression for validating the call sign format
+     *
+     * @return string
+     */
     abstract public function regex() : string;
 }
