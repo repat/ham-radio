@@ -1,0 +1,21 @@
+{
+    "name": "repat/ham-radio",
+    "description": "Amateur Radio Call Signs Verification",
+    "keywords": ["ham", "amateur", "radio", "fcc", "call sign", "lookup", "validation", "verification", "usa"],
+    "homepage": "https://repat.de",
+    "license": "MIT",
+    "version" : "0.1",
+    "authors": [
+        {"name": "repat", "email": "repat@repat.de"}
+    ],
+    "require": {
+        "php": ">=7.0",
+        "repat/http-constants": "^0.1",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Repat\\LaravelJobs\\": "src/Repat/HamRadio"
+        }
+    }
+}
