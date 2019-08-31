@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Repat\\LaravelJobs\\": "src/Repat/HamRadio"
+            "Repat\\HamRadio\\": "src/Repat/HamRadio"
         }
     }
 }
